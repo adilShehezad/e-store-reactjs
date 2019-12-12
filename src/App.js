@@ -1,14 +1,16 @@
 import React from 'react';
-// navbars
+import Home from './components/home/Home';
 
-import Menu from './components/Menu';
+import './css/App.css';
+import './css/Bootstrap.css';
+import './css/Fontawesome.css';
+import './css/Responsive.css';
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Menu/>
+      <Home/>
     </div>
   );
 }
